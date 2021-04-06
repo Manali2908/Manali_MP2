@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginPage">
+
+    <fragment
+        android:id="@+id/loginPage"
+        android:name="com.example.manali_mp2.LoginPage"
+        android:label="fragment_login_page"
+        tools:layout="@layout/fragment_login_page" />
+    <fragment
+        android:id="@+id/registerPage"
+        android:name="com.example.manali_mp2.RegisterPage"
+        android:label="fragment_register_page"
+        tools:layout="@layout/fragment_register_page" />
+    <fragment
+        android:id="@+id/forgotPassword"
+        android:name="com.example.manali_mp2.ForgotPassword"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+</navigation>

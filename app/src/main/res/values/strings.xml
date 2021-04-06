@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Manali_MP2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="LoginPage">Login</string>
+    <string name="RegisterPage">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Welcome">Welcome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Forgot">Forgot paasword</string>
+
+</resources>

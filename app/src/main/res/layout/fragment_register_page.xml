@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage"
+    android:background="#FFFDAF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/RegisterPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp"
+        android:text="@string/RegisterPage"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/EID"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/DOB"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:hint="Birthdate"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="city"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="gender"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/cpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint=" Confirm password"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/Registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register!"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/button"
+        android:singleLine="true"
+        />
+
+</RelativeLayout>

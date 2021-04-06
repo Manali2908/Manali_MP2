@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/dashboard2">
+
+    <fragment
+        android:id="@+id/dashboard2"
+        android:name="com.example.manali_mp2.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard"
+        android:background="#FFFDAF"/>
+    <fragment
+        android:id="@+id/ProfilePage"
+        android:name="com.example.manali_mp2.ProfilePage"
+        android:label="fragment_profile_page"
+        tools:layout="@layout/fragment_profile_page"
+        android:background="#FFFDAF"/>
+</navigation>

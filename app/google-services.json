@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333339639374",
+    "project_id": "manali-mp2",
+    "storage_bucket": "manali-mp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333339639374:android:2804310124495e29c3cd1f",
+        "android_client_info": {
+          "package_name": "com.example.manali_mp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333339639374-hinq7uio9pbgurubi4uqmo3osp28fbo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy9S5pZ6u0OoVX2snAP_sZ7so6Hstzj5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333339639374-hinq7uio9pbgurubi4uqmo3osp28fbo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
